@@ -13,7 +13,7 @@ description = "Subnet ID"
 variable "sg" {
 description = "AWS Secruity Group"
 type = list(string)
-default  = ["dimes-css-poc-sg"]
+
 }
 
 variable "key" {
