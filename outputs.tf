@@ -1,6 +1,6 @@
 output "instanceidx" {
   description = "Instance ID"
-  value       = "${aws_instance.scalr.id}"
+  value       = aws_instance.scalr.id
 }
 
 output "publicipx" {
